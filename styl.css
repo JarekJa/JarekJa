@@ -1,0 +1,122 @@
+        body
+		{
+		 background-color: #bbbbbb;
+		}
+		#tabzab
+		{
+		text-align:center;
+		width:600px;
+		}
+		#str
+		{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	    #logo
+		{
+        background-color: #30b000;
+		color: black;
+		height:100px;
+		font-size:26px;
+		padding-top:20px;	
+		padding-left:40px;
+		}
+	    #menu
+		{
+         background-color: #26ff61;
+		 color:#000000;
+		 padding:10px;
+		 padding-left:320px;
+		}
+		.pomenu
+		{
+		float: left;
+		min-width:50px;
+		height:25px;
+		font-size:18px;
+		padding:10px;
+		padding-left:25px;
+		padding-right:25px;
+		border-right:2px solid #FF784E;
+		}
+		.pomenu:hover
+		{
+		background-color: #215d21;
+		cursor:pointer;
+		}
+	    #ciekawostki
+		{
+		background-color: #89ff89;
+         float: left;
+		 min-height: 685px;
+		 width: 313px;
+		 padding:10px;
+		 text-align: justify;
+		 font-size:17px;
+		}
+		#zabytki 
+		{
+		background-color: #6ab99b;
+         float: left;
+		 min-height: 705px;
+		 width: 667px;
+		 text-align:center;
+		}
+		#gra
+		{
+			clear: both;
+			min-height:500px;
+			background-color: #CBFF70;
+			padding-top:5px;
+			text-align:center;
+			 margin-left: auto;
+              margin-right: auto;
+		}
+		#tabgra
+		{
+			 margin-left: auto;
+             margin-right: auto;
+		}
+		#podogry
+		{
+			padding:10px;
+			padding-left:50px;
+			font-size:28px;
+		}
+		button
+		{ 
+		height: 40px;
+		width:120px;
+		font-size:28px;
+		float: left;
+		margin-left:40px;
+		background-color: #FF4E0D;
+		}
+		#pugrgry
+		{
+			float: left;
+			margin-left:40px;
+		}
+		#pukogry
+		{
+			float: left;
+			margin-left:40px;
+		}
+		#czyruch
+		{
+			float: left;
+			margin-left:40px;
+		}
+		.tdgra
+		{
+			padding:10px;
+			text-align:center;
+		}
+		#stopka
+		{
+		background-color: #6a75b9;
+		min-height:10px;
+		padding:20px;
+		text-align:center;
+		}
