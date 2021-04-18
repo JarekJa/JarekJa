@@ -188,6 +188,234 @@
 				width: 33%;
 				height:100%
 			}
+        body
+		{
+		 background-color: #bbbbbb;
+		 margin:0px;
+		 padding:0px;
+		}
+		#str
+		{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	    #logo
+		{
+        background-color: #30b000;
+		color: black;
+		text-align:center;
+		height:100px;
+		font-size:26px;
+		width:100%;
+		padding-top:20px;	
+		}
+	    #menu
+		{
+		display: none;
+		 width:98%;
+         background-color: #26ff61;
+		 color:#000000;
+		 padding: 1%;
+
+		}
+
+        #prmemo
+		{
+			margin-left:10px;
+			background-color: #18BA94;
+			position: fixed;
+			text-align:center;
+			font-size:40px;
+		}			
+		#limenu
+		{
+			text-align:center;
+			position: fixed;
+           float: left; 
+		   width: 100%;
+		   height:100%;
+			display: none; background-color: #26ff61;
+		}
+		.pomenu
+		{
+		min-width:50px;
+		height:20%;
+		font-size:30px;
+		padding-left:24px;
+		padding-right:24px;
+		}
+		.pomenu:hover
+		{
+		background-color: #215d21;
+		cursor:pointer;
+		}
+	    #ciekawostki
+		{
+		background-color: #89ff89;
+		 width: 98%;
+		 padding:1%;
+		 text-align: justify;
+		 font-size:17px;
+		}
+		#zabytki 
+		{
+		background-color: #6ab99b;
+		 width: 100%;
+		 text-align:center;
+		 padding-top:5px;
+		}
+		.zab
+		{
+			width: 100%;
+			height:100%;
+		}
+		.obrzam
+		{
+			width: 300px;
+			height: 300px;
+		}
+		#gra
+		{     
+            background-color: #CBFF70;		
+	    	width:100%;
+			 text-align:center;
+			padding-top:5px;
+
+		}
+		.tdgra 
+		{
+			float: left;
+			width: 25%;
+			height: 25%;
+
+		}
+		.imgra
+		{
+		height: 90%;
+		width: 90%;
+		}
+		#podogry
+		{
+			padding:10px;
+			padding-left:50px;
+			font-size:28px;
+		}
+		button
+		{ 
+		height: 40px;
+		width:120px;
+		font-size:28px;
+		float: left;
+		margin-left:40px;
+		background-color: #FF4E0D;
+		}
+		#pugrgry
+		{
+			float: left;
+			margin-left:40px;
+		}
+		#pukogry
+		{
+			float: left;
+			margin-left:40px;
+		}
+		#czyruch
+		{
+			float: left;
+			margin-left:40px;
+		}
+
+		#stopka
+		{
+		background-color: #6a75b9;
+		min-height:10px;
+		padding:20px;
+		text-align:center;
+		}  
+		
+		
+		
+		@media(min-width:600px)
+		{
+			#menu
+			{
+			display: block;
+			}
+			#menumobil
+			{
+				display:none;
+			}
+	    #prmemo
+		{
+			display: none;
+		}	
+				.pomenu
+		{
+		float: left;
+				border-right:2px solid #FF784E;
+				height:25px;
+				font-size:18px;
+				padding:10px;
+		}
+		#logo{
+		width:90%;
+		text-align:left;
+		padding-top:20px;	
+		padding-left:10%;
+		}
+				.zab
+			{
+				float: left;
+				width: 50%;
+		    	height:50%;
+			}
+          .tdgra 
+		{
+			float: left;
+			width: 16.66%;
+			height: 16.66%;
+
+		}
+
+		}
+		
+		
+		
+		
+		@media(min-width:1000px)
+		{
+		#str
+		{
+		width: 75%;
+		}
+		  #menu
+		{ 
+		position: fixed; 
+		 width:60%;
+		 padding: 1%;
+		 padding-left:14%
+		}
+		    .pasek
+			{ 
+			background-color:black;
+             display: table;
+			}
+					.obrzam
+		{
+			width: 250px;
+			height: 250px;
+		}
+			#zabytki
+			{
+				width: 67%;
+				height:100%			
+			}
+			#ciekawostki
+			{
+				width: 33%;
+				height:100%
+			}
 			.pasek1
 			{
 				display: table-cell;
@@ -204,11 +432,12 @@
 		{
 					  #menu
 		{
-		 width:70%;
+		 width:50%;
 		 padding: 1%;
-		 padding-left:29%
+		 padding-left:24%
 		}
-							.obrzam
+
+							.obrza
 		{
 			width: 300px;
 			height: 300px;
@@ -229,6 +458,10 @@
 
 		@media(max-width:320px)
 		{
+		  #prmemo
+		{
+			font-size: 40px;
+		}
 					.obrzam
 		{
 			width: 150px;
