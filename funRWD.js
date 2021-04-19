@@ -145,12 +145,9 @@ function graj()
 }
 function opmenu() {
   var x = document.getElementById("limenu");
-  var z = document.getElementById("prmemo");
   if (x.style.display === "block") {
-	  z.style.display = "block";
     x.style.display = "none";
   } else {
-	  z.style.display = "none";
     x.style.display = "block";
   }
 }  
