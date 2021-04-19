@@ -106,13 +106,13 @@ function ruch(n)
 		{
 			if(l==0)
 			{
-				document.getElementById("t"+n).innerHTML="<img src=\"r"+obrazki[n-1]+".jpg\" alt=\"Błąd\" width=\"150\" height=\"150\">";
+				document.getElementById("t"+n).innerHTML="<img  class=\"imgra\" src=\"r"+obrazki[n-1]+".jpg\" alt=\"Błąd\" ;
 				pom=n;
 				l++;
 			}
 			else if(l==1 && n!=pom)
 			{
-				document.getElementById("t"+n).innerHTML="<img src=\"r"+obrazki[n-1]+".jpg\" alt=\"Błąd\" width=\"150\" height=\"150\">";
+				document.getElementById("t"+n).innerHTML="<img  class=\"imgra\" src=\"r"+obrazki[n-1]+".jpg\" alt=\"Błąd\";
 				if(obrazki[pom-1]==obrazki[n-1])
 				{
 					pungra++;
